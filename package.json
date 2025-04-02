@@ -1,16 +1,19 @@
 {
   "name": "fullstack_todo_server",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "directus start",
+    "bootstrap": "directus bootstrap",
+    "dbupdate": "directus database migrate:latest",
+    "dbsnapshot": "directus schema snapshot --yes ./db/snapshot.yaml",
+    "dbapply": "directus schema apply --yes ./db/snapshot.yaml"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "directus": "^11.6.1",
-    "sqlite3": "^5.1.7"
+    "directus": "11.6.1",
+    "sqlite3": "5.1.7"
   }
 }
