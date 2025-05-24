@@ -4,13 +4,13 @@ A simple task management app to help your organize to your daily to-do lists. Us
 
 ## Features
 
-- `bootstrap`: "directus bootstrap", (The directus bootstrap command is used to initialize the Directus system database and create the initial admin user)
+- ➡️ "bootstrap": "directus bootstrap", (The directus bootstrap command is used to initialize the Directus system database and create the initial admin user)
 
-- `dbupdate`: "directus database migrate:latest", (dbupdate – Runs directus database migrate:latest to apply the latest database schema migrations.)
+- ➡️ "dbupdate": "directus database migrate:latest", ( Runs directus command database migrate:latest to apply the latest database schema migrations.)
 
-- `dbsnapshot`: "directus schema snapshot --yes ./db/snapshot.yaml", ( Runs a Directus command that exports the current database schema configuration schema snapshot )
+- ➡️ "dbsnapshot": "directus schema snapshot --yes ./db/snapshot.yaml", ( Runs a Directus command that exports the current database schema configuration schema snapshot )
 
-- `dbapply`: "directus schema apply --yes ./db/snapshot.yaml" (Runs a Directus command that apply to the current database schema)
+- ➡️ "dbapply": "directus schema apply --yes ./db/snapshot.yaml" (Runs a Directus command that apply to the current database schema)
 
 ## Technologies Used
 
