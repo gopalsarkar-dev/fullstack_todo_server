@@ -20,7 +20,7 @@ A simple task management app to help your organize to your daily to-do lists. Us
 - Directus for The last Headless CMS
 - Sqlite for Database
 
-## 1. Clone the repo
+## Clone the repo
 
 - ➡️ Backand repo git clone (https://github.com/gopalsarkar-dev/fullstack_todo_server.git)
 
