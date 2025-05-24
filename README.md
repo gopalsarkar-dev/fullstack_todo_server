@@ -1,4 +1,4 @@
-## Full-Stack Todo Ui
+## Full-Stack Todo Server
 
 A simple task management app to help your organize to your daily to-do lists. Users can Authentication and authorization Add, delete, and mark tasks as complete and imcomplete with ease
 
